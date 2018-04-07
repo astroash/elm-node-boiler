@@ -1,0 +1,6 @@
+node_modules
+.env
+elm-stuff
+ngrok
+/dist/bundle.js
+.vscode

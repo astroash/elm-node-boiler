@@ -1,0 +1,10 @@
+BEGIN;
+
+DROP TABLE IF EXISTS stuff CASCADE;
+
+CREATE TABLE stuff (
+  stuff_id SERIAL PRIMARY KEY,
+  body TEXT NOT NULL,
+);
+  
+COMMIT;
